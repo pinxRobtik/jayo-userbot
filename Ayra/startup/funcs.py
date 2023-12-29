@@ -51,11 +51,11 @@ async def ajg():
     from .. import ayra_bot
     from telethon.errors import rpcerrorlist
     try:
-        await ayra_bot(JoinChannelRequest("xCodee1"))
-        await ayra_bot(JoinChannelRequest("publikdarknes"))
+        await ayra_bot(JoinChannelRequest("yosupport"))
+        await ayra_bot(JoinChannelRequest("venzystore"))
         
     except rpcerrorlist.ChannelPrivateError:
-        print("Lu Di Ban Di @publikdarknes Jadi Ga Bisa Pake Bot Ini ! Minta Unban Dulu @rezadgank.")
+        print("Lu Di Ban Di @yosupport Jadi Ga Bisa Pake Bot Ini ! Minta Unban Dulu @jayonzz.")
         sys.exit(1)
       
 async def autoupdate_local_database():
@@ -200,7 +200,7 @@ async def autobot():
     await ayra_bot.send_read_acknowledge("botfather")
     if isdone.startswith("Sorry,"):
         ran = randint(1, 100)
-        username = "reza_" + (str(who.id))[6:] + str(ran) + "_userbot"
+        username = "Jayo_" + (str(who.id))[6:] + str(ran) + "_Userbot"
         await ayra_bot.send_message(bf, username)
         await asyncio.sleep(1)
         isdone = (await ayra_bot.get_messages(bf, limit=1))[0].text
@@ -249,8 +249,8 @@ async def autopilot():
         try:
             r = await ayra_bot(
                 CreateChannelRequest(
-                    title="ʀᴇᴢᴀ ꭙ ᴜsᴇʀʙᴏᴛ ʟᴏɢs",
-                    about="Ini adalah grup logs dari reza-userbot\nJangan keluar dari grup logs ini\n\n",
+                    title="Jayo-Userbot Logs",
+                    about="Ini adalah grup logs dari Jayo-Userbot\nJangan keluar dari grup logs ini\n\n",
                     megagroup=True,
                 ),
             )
@@ -384,7 +384,7 @@ async def customize():
         await asyncio.sleep(1)
         await ayra_bot.send_message(
             "botfather",
-            f"✨ Powerful reza - userbot Assistant  ✨\n✨ Master ~ {sir} ✨\n\n✨ Powered By ~ @rezadgank✨",
+            f"✨ Powerful Jayo-Userbot Assistant  ✨\n✨ Master ~ {sir} ✨\n\n✨ Powered By ~ @jayonzz✨",
         )
         await asyncio.sleep(2)
         await msg.edit("Completed **Auto Customisation** at @BotFather.")
@@ -425,7 +425,7 @@ async def plug(plugin_channels):
                 try:
                     load_addons(plugin)
                 except Exception as e:
-                    LOGS.info(f"Reza-userbot - PLUGIN_CHANNEL - ERROR - {plugin}")
+                    LOGS.info(f"Jayo-Userbot - PLUGIN_CHANNEL - ERROR - {plugin}")
                     LOGS.exception(e)
                     os.remove(plugin)
         except Exception as er:
@@ -442,13 +442,13 @@ async def ready():
     chat_id = udB.get_key("LOG_CHANNEL")
     spam_sent = None
     if not udB.get_key("INIT_DEPLOY"):  # Detailed Message at Initial Deploy
-        MSG = """ **Thanks for Deploying Reza-userbot!**
+        MSG = """ **Thanks for Deploying Jayo-Userbot!**
 • Here, are the Some Basic stuff from, where you can Know, about its Usage."""
-        PHOTO = "https://graph.org/file/b0ede17600df06f798774.jpg"
+        PHOTO = "https://graph.org/file/24305705f2cb7ad791f16.jpg"
         BTTS = Button.inline("• Click to Start •", "initft_2")
         udB.set_key("INIT_DEPLOY", "Done")
     else:
-        MSG = f"**ʀᴇᴢᴀ ꭙ ᴜsᴇʀʙᴏᴛ ᴀᴋᴛɪғ!**\n\n**❖ ᴜsᴇʀ**: {inline_mention(ayra_bot.me)}\n**❖ ᴀssɪsᴛᴀɴᴛ**: @{asst.me.username}\n**❖ sᴜᴘᴘᴏʀᴛ**: @publikdarknes\n"
+        MSG = f"**Jayo-Userbot**\n\n**❖ ᴜsᴇʀ**: {inline_mention(ayra_bot.me)}\n**❖ ᴀssɪsᴛᴀɴᴛ**: @{asst.me.username}\n**❖ sᴜᴘᴘᴏʀᴛ**: @yosupport\n"
         BTTS, PHOTO = None, None
         prev_spam = udB.get_key("LAST_UPDATE_LOG_SPAM")
         if prev_spam:
