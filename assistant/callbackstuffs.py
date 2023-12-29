@@ -270,7 +270,7 @@ async def changes(okk):
                 language="md",
             )
             return await okk.edit(
-                f"**• Reza Userbot •**{cli}",
+                f"**• Jayo-Userbot •**{cli}",
                 file=thumb,
                 buttons=button,
                 force_document=True,
