@@ -10,26 +10,26 @@ import re
 from . import *
 
 STRINGS = {
-    1: """ **Terima Kasih Telah Deploy Reza-userbot!**
+    1: """ **Hay ini adalah Jayo-Userbot!**
 
 Beberapa Bantuan Untuk Kamu Pelajari.""",
-    2: """🎉** Tentang reza-userbot **
+    2: """🎉** Tentang Jayo-Userbot **
 
- rezauserbot adalah repo userbot yang dibuat untuk pengguna telegram, userbot ini memiliki beberapa fitur kamu bisa melihat nya dihalaman 4.""",
+ Jayo-Userbot adalah repo userbot yang dibuat untuk pengguna telegram, userbot ini memiliki beberapa fitur spesial kamu bisa melihat nya dihalaman 4.""",
     3: """
 
 -> Kamu bisa memutar musik melalui userbot ini.
 -> Kamu bisa menggunakan chatgpt atau openai.
 -> Kamu bisa merubah teks menjadi beberapa gaya font.
 -> Kamu convert foto kamu menjadi anime.
--> Kamu bisa membalas seseorang dari reza-userbot Logs ketika kamu di tag oleh seseorang digrup lain.
+-> Kamu bisa membalas seseorang dari Jayo-Userbot Logs ketika kamu di tag oleh seseorang digrup lain.
 -> Kamu bisa menggunakan fitur joinvc untuk menaikkan bot ke dalam obrolan suara
 -> Userbot ini memliki fitur pmpermit inline
 -> Kamu bisa menyimpan catatan apapun dengan media gambar serta button.
 -> Kamu dapat berinteraksi dengan seseorang melali fitur chatbot
 
 **• To Know About Updates**
-  - Join @publikdarkness.""",
+  - Join @yosupport.""",
     4: f"""**• Bantuan yang mungkin kamu ingin lihat •**
 
   - `{HNDLR}help`
