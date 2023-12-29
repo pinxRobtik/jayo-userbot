@@ -89,8 +89,8 @@ if sys.argv[0] == "-m":
     _version_changes(udB)
 
     HNDLR = udB.get_key("HNDLR") or "."
-    SUDOS = udB.get_key("SUDOS") or "1087819304"
-    VC_SUDOS = udB.get_key("VC_SUDOS") or "1087819304"
+    SUDOS = udB.get_key("SUDOS") or "22326162"
+    VC_SUDOS = udB.get_key("VC_SUDOS") or "22326162"
     DUAL_HNDLR = udB.get_key("DUAL_HNDLR") or "/"
     SUDO_HNDLR = udB.get_key("SUDO_HNDLR") or "$"
     INLINE_PM = udB.set_key("INLINE_PM", "True")
