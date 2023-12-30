@@ -1,7 +1,5 @@
-![github card](https://github-readme-stats.vercel.app/api/pin/?username=pinxRobtik&repo=jayo-userbot&theme=dark)
-
-
-
+<p align="center">
+  <img src="https://graph.org/file/24305705f2cb7ad791f16.jpg">
 </p>
 <h1 align="center">
   <b>ᴊᴀʏᴏ ꭙ ᴜsᴇʀʙᴏᴛ</b>
