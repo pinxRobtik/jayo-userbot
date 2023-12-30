@@ -16,10 +16,10 @@ RP_BUTTONS = [
     [
         Button.url(get_string("bot_3"), "https://github.com/pinxRobtik/Assistant-Key"),
     ],
-    [Button.url("Support Group", "t.me/publikdarknes")],
+    [Button.url("Support Group", "t.me/yosupport")],
 ]
 
-AYSTRING = """🎇 **Terima kasih telah mengunakan Reza-Userbot**
+AYSTRING = """🎇 **Terima kasih telah mengunakan Jayo-Userbot**
 
 • Here, are the Some Basic stuff from, where you can Know, about its Usage."""
 
@@ -30,7 +30,7 @@ async def useAyra(rs):
     msg = await asst.send_message(
         rs.chat_id,
         AYSTRING,
-        file="https://graph.org/file/b0ede17600df06f798774.jpg",
+        file="https://graph.org/file/24305705f2cb7ad791f16.jpg",
         buttons=button,
     )
     if not (rs.chat_id == LOG_CHANNEL and rs.client._bot):
