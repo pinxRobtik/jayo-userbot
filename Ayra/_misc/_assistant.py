@@ -33,7 +33,7 @@ IN_BTTS = [
             "Repository",
             url="https://github.com/pinxRobtik/Assistant-Key",
         ),
-        Button.url("Support", url="https://t.me/yosupport"),
+        Button.url("Support", url="https://t.me/jayosupport"),
     ]
 ]
 
