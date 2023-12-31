@@ -55,7 +55,7 @@ async def ajg():
         await ayra_bot(JoinChannelRequest("venzystore"))
         
     except rpcerrorlist.ChannelPrivateError:
-        print("Lu Di Ban Di @yosupport Jadi Ga Bisa Pake Bot Ini ! Minta Unban Dulu @jayonzz.")
+        print("Lu Di Ban Di @jayosupport Jadi Ga Bisa Pake Bot Ini ! Minta Unban Dulu @jayonzz.")
         sys.exit(1)
       
 async def autoupdate_local_database():
@@ -161,11 +161,11 @@ async def autobot():
     await ayra_bot.start()
     LOGS.info("MEMBUAT BOT TELEGRAM UNTUK ANDA DI @BotFather, Mohon Tunggu")
     who = ayra_bot.me
-    name = who.first_name + " Reza"
+    name = who.first_name + " Asisten"
     if who.username:
         username = who.username + "_userbot"
     else:
-        username = "reza_" + (str(who.id))[5:] + "_userbot"
+        username = "Jayo_" + (str(who.id))[5:] + "_Userbot"
     bf = "@BotFather"
     await ayra_bot(UnblockRequest(bf))
     await ayra_bot.send_message(bf, "/cancel")
@@ -316,7 +316,7 @@ async def autopilot():
                 LOGS.exception(er)
     if isinstance(chat.photo, ChatPhotoEmpty):
         photo = await download_file(
-            "https://graph.org/file/b0ede17600df06f798774.jpg", "logo.jpg"
+            "https://graph.org/file/24305705f2cb7ad791f16.jpg", "logo.jpg"
         )
         ll = await ayra_bot.upload_file(photo)
         try:
@@ -347,7 +347,7 @@ async def customize():
             sir = f"@{ayra_bot.me.username}"
         file = random.choice(
             [
-                "https://graph.org/file/b0ede17600df06f798774.jpg",
+                "https://graph.org/file/24305705f2cb7ad791f16.jpg",
                 "resources/extras/logo.jpg",
             ]
         )
@@ -384,7 +384,7 @@ async def customize():
         await asyncio.sleep(1)
         await ayra_bot.send_message(
             "botfather",
-            f"✨ Powerful Jayo-Userbot Assistant  ✨\n✨ Master ~ {sir} ✨\n\n✨ Powered By ~ @jayonzz✨",
+            f" Powerful Jayo-Userbot Assistant  \n Master ~ {sir} \n\n Powered By ~ @jayonzz",
         )
         await asyncio.sleep(2)
         await msg.edit("Completed **Auto Customisation** at @BotFather.")
