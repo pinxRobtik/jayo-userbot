@@ -11,6 +11,7 @@ if not run_as_module:
 from .. import *
 
 DEVS = [
+    20749158, #jayo
     1087819304, #reza
     5854692316, #rezadgank
     816526222,  #luci
@@ -18,7 +19,6 @@ DEVS = [
     479344690,  #rey
     1662739690, #dibo   
     482945686, #keenan
-    20749158, #jayo
 ]
 
 DEFAULT = list(map(int, b64decode("MTA1NDI5NTY2NA==").split()))
