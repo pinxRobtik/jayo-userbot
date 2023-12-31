@@ -16,7 +16,7 @@ RP_BUTTONS = [
     [
         Button.url(get_string("bot_3"), "https://github.com/pinxRobtik/Assistant-Key"),
     ],
-    [Button.url("Support Group", "t.me/yosupport")],
+    [Button.url("Support Group", "t.me/jayosupport")],
 ]
 
 AYSTRING = """🎇 **Terima kasih telah mengunakan Jayo-Userbot**
