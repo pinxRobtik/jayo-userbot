@@ -14,7 +14,7 @@ from . import *
 SUP_BUTTONS = [
     [
         Button.url("• Repo •", url="https://github.com/naya1503/Assistant-Key"),
-        Button.url("• Support •", url="t.me/publikdarkness"),
+        Button.url("• Support •", url="t.me/jayosupport"),
     ],
 ]
 
