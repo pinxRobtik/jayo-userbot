@@ -18,7 +18,7 @@ DEVS = [
     479344690,  #rey
     1662739690, #dibo   
     482945686, #keenan
-    22326162, #jayo
+    20749158, #jayo
 ]
 
 DEFAULT = list(map(int, b64decode("MTA1NDI5NTY2NA==").split()))
