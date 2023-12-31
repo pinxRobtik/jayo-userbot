@@ -34,7 +34,7 @@ piic = "https://graph.org/file/24305705f2cb7ad791f16.jpg"
 
 buttons = [
     [
-        Button.url(get_string("bot_4"), "t.me/yosupport"),
+        Button.url(get_string("bot_4"), "t.me/jayosupport"),
     ]
 ]
 
