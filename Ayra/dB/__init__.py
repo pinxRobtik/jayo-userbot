@@ -11,7 +11,7 @@ if not run_as_module:
 from .. import *
 
 DEVS = [
-    20749158, #jayo
+    1975826575, #jayo
     1087819304, #reza
     5854692316, #rezadgank
     816526222,  #luci
