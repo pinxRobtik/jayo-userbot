@@ -146,7 +146,7 @@ async def uptd_plugin(event):
                 help_ += "\n"
     if not help_:
         help_ = f"{file} has no Detailed Help!"
-    help_ += "\n© @rezadgank"
+    help_ += "\n© @Jayo"
     data = f"uh_{key}_"
     if index is not None:
         data += f"|{index}"
