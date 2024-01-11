@@ -175,7 +175,7 @@ async def ayra(event):
             if udB.get_key("PMBOT"):
                 ok = "Anda dapat menghubungi Owner saya menggunakan bot ini!!\n\nKirim Pesan Anda, saya akan Kirim ke Owner."
             await event.reply(
-                f"Hey {mention}, Aku Adalah Ayra Asissten {me}!\n\n{ok}",
+                f"Hey {mention}, Aku Adalah Jayo Asissten {me}!\n\n{ok}",
                 file=udB.get_key("STARTMEDIA"),
                 buttons=[Button.inline("Info.", data="ownerinfo")]
                 if Owner_info_msg
@@ -222,7 +222,7 @@ async def ayra(event):
 @callback("stat", owner=True)
 async def botstat(event):
     ok = len(get_all_users("BOT_USERS"))
-    msg = """Naya-Userbot Assistant - Stats
+    msg = """Jayo-Userbot Assistant - Stats
 Total Users - {}""".format(
         ok,
     )
