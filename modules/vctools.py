@@ -111,7 +111,7 @@ async def join_(event):
         await asyncio.sleep(1)
         await event.eor(f"**sᴜᴄᴄᴇss ᴊᴏɪɴ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ**\n└ **ᴄʜᴀᴛ ɪᴅ :** `{chat}`")
         await asyncio.sleep(1)
-        await Nan.group_call.set_is_mute(False)
+        await Nan.group_call.set_is_mute(True)
         await asyncio.sleep(1)
         await Nan.group_call.set_is_mute(True)
 
