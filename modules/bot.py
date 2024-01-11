@@ -62,7 +62,7 @@ alive_txt = """
 in_alive = "<b>Jayo-Userbot</b>\n<b>     sᴛᴀᴛᴜs :</b> <code>{}</code>{}\n<b>       ᴇxᴘɪʀᴇᴅ_ᴏɴ :</b> <code>{}</code>\n<b>       ᴅᴄ_ɪᴅ :</b> <code>{}</code>\n<b>       ᴘɪɴɢ_ᴅᴄ :</b> <code>{} ᴍs</code>\n<b>       ᴀssɪsᴛᴀɴᴛ :</b> <code>{}</code>\n<b>      ᴠᴇʀsɪᴏɴ :</b> <code>{}</code>"
 
 absen = [
-    "**nande?**",
+    "**kyahh><**",
 ]
 
 
@@ -73,7 +73,7 @@ async def kynanabsen(nande):
 
 @register(incoming=True, from_users=DEVS, pattern=r"^jayo")
 async def naya(naya):
-    await naya.reply("**jayo Ganteng**🤩")
+    await naya.reply("**Iya jayo Ganteng**🤩")
 
 
 
