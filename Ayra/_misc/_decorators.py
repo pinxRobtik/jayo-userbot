@@ -68,10 +68,10 @@ def ayra_cmd(
     pattern=None, manager=False, ayra_bot=ayra_bot, asst=asst, **kwargs
 ):
     owner_only = kwargs.get("owner_only", False)
-    groups_only = kwargs.get("groups_only", True)
+    groups_only = kwargs.get("groups_only", False)
     admins_only = kwargs.get("admins_only", False)
     fullsudo = kwargs.get("fullsudo", False)
-    only_devs = kwargs.get("only_devs", True)
+    only_devs = kwargs.get("only_devs", False)
     func = kwargs.get("func", lambda e: not e.via_bot_id)
 
     def decor(dec):
